@@ -1,13 +1,19 @@
-
-body {
-    background-color:rgb(12, 12, 12);
-    color:rgb(253, 153, 3);
-    
-}
-
-
-
-
-
-
-
+:root{
+    --cinza:#D9D9D9;
+    --cinza-claro:#EFEFEF;
+    --preto:#000000;
+   }
+   body {
+       background-color:var(--cinza-claro);
+        color:var(--preto);
+   }
+   header{
+       display: flex;
+       
+   }
+   
+   
+   
+   
+   
+   
