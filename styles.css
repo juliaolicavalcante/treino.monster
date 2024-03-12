@@ -8,7 +8,7 @@
         color:var(--preto);
    }
    header{
-    background-color: blue;
+    background-color: var(--cinza);
     display: flex;
     align-items: center;
     justify-content: space-around;
