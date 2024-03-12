@@ -8,10 +8,11 @@
         color:var(--preto);
    }
    header{
+    background-color: blue;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: blue;
+    
        
    }
 
