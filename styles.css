@@ -37,4 +37,5 @@ header {
     background-color: var(--preto);
     color: var(--cinza);
     padding: 2px;
+    border-radius: 8px;
 }
