@@ -3,23 +3,23 @@
     --cinza-claro:#EFEFEF;
     --preto:#000000;
    }
-   body {
+body {
        background-color:var(--cinza-claro);
         color:var(--preto);
    }
-   header{
+header{
        display:flex;
        
    }
    
-   .cabeçalho{
+.cabeçalho{
        display: flex;
        align-items: center;
        padding: 0 10px;
    
    }
    
-   .intro{
+.intro{
    text-align: center;
    }
    
