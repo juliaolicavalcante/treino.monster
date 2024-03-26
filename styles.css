@@ -43,3 +43,8 @@ header {
 .equipe img{ 
     width: 15%;
 }
+
+.equipe{
+    display: flex;
+    align-items: center;
+}
