@@ -40,11 +40,11 @@ header {
     border-radius: 8px;
 }
 
-.equipe img{ 
-    width: 15%;
-}
-
 .equipe{
     display: flex;
     align-items: center;
+}
+
+.equipe img{ 
+    width: 15%;
 }
