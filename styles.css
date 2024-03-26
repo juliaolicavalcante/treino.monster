@@ -29,3 +29,8 @@ header {
 .intro {
     text-align: center;
 }
+.cabeçalho-perna{
+    margin: 0 20px;
+    background-color: var(--preto);
+    color: var(--cinza);
+}
