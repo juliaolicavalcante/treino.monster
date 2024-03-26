@@ -4,10 +4,10 @@
     --preto:#000000;
    }
 body {
-       background-color:var(--cinza-claro);
         color:var(--preto);
    }
 header{
+    background-color:var(--cinza-claro);
        display:flex;
        
    }
