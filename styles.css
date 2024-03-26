@@ -1,3 +1,7 @@
+    *{
+        margin: 0;
+    }
+
 :root {
     --cinza: #D9D9D9;
     --cinza-claro: #EFEFEF;
@@ -10,7 +14,8 @@ body {
 
 header {
     background-color: var(--cinza-claro);
-
+    display: flex;
+    justify-content: space-between;
 }
 
 .cabeçalho {
