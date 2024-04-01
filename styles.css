@@ -41,7 +41,7 @@ header {
 }
 
 .equipe{
-    background-color: var(--preto);
+    background-color: var(--cinza-claro);
     color: var(--cinza);
     display: flex;
     align-items: center;
