@@ -42,7 +42,7 @@ header {
 
 .equipe{
     background-color: var(--cinza);
-    color: var(--cinza);
+    color: var(--preto);
     display: flex;
     align-items: center;
     padding: 10px;
