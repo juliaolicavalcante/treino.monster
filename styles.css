@@ -1,78 +1,141 @@
-    *{
-        margin: 0;
-    }
+*{
+    margin: 0;
+}
 
 :root {
-    --cinza: #e6e6e6;
-    --cinza-claro: #d4d4d4;
-    --preto: #000000;
+--cinza: #e6e6e6;
+--cinza-claro: #d4d4d4;
+--preto: #000000;
 }
 
 body {
-    background-color: var(--cinza);
-    color: var(--preto);
-    font-family: "Inknut Antiqua", serif;
-  font-weight: 400;
-  font-style: normal;
+background-color: var(--cinza);
+color: var(--preto);
+font-family: "Inknut Antiqua", serif;
+font-weight: 400;
+font-style: normal;
 }
 
 header {
-    background-color: var(--cinza-claro);
-    display: flex;
-    justify-content: space-between;
+background-color: var(--cinza-claro);
+display: flex;
+justify-content: space-between;
 }
 
 .cabeçalho {
-    display: flex;
-    align-items: center;
-    padding: 0 10px;
-    justify-content: space-around;
-    
+display: flex;
+align-items: center;
+padding: 0 10px;
+justify-content: space-around;
+
 }
 
 .intro {
-    text-align: center;
-    padding: 20px;
+text-align: center;
+padding: 20px;
 }
-.cabeçalho-perna{
-    margin: 0 20px;
-    background-color: var(--preto);
-    color: var(--cinza);
-    padding: 2px;
-    border-radius: 8px;
+.botão-perna{
+margin: 0 20px;
+width: 82px;
+height: 28px;
+border-radius: 50px;
+background-color: var(--preto);
+color: var(--cinza-claro);
+cursor: pointer;
+transition: transform 200ms ease-in-out;
 }
+
+.botão-perna:hover{ 
+letter-spacing: 1px;
+background-color: #5c546369;
+color: black;
+box-shadow: #5c546369 ;
+transform: scale(1.05) ;
+}
+
+.descrição-diretos{ 
+    margin-left: 1035px;
+    font-size: 20px;
+}
+
 .container{
-    width: 1000px;
-    border: solid 1px var(--preto);
-    margin: auto;
+width: 1000px;
+border: solid 1px var(--preto);
+margin: auto;
 }
 .exercicios-tríceps-corda img{
-    width: 25%;
-    border: #332d2d solid;
-    border-radius: 30px;
+width: 65%;
+border: #000000 solid;
+border-radius: 30px;
+margin-left: 150px;
+}
+
+.exercicios-tríceps-corda-lista{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.descrição-triceps {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left:  285px;
+    font-size: 20px;
+}
+.texto-triceps{
+    display: grid;
+    margin-right: 300px ;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.exercicios-corda-direta{ 
+    display: grid;
+    grid-template-columns:  60% 40%;
+}
+
+.texto-rosca{
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.descrição-direto{
+    font-size: 20px;
+    margin-left: 1090px;
+    margin-bottom: 10px;
+}
+
+.imagem-direta img{
+    width: 65%;
+border: #000000 solid;
+border-radius: 30px;
+margin-right: 90px;
+margin-bottom: 25px;
+
 }
 
 footer{
-    display: grid;
-    grid-template-columns: 35% 65%;
-    background-color: var(--cinza-claro);
-    color: var(--preto);
-    justify-items: center;
-    align-items: center;
+display: grid;
+grid-template-columns: 35% 65%;
+background-color: var(--cinza-claro);
+color: var(--preto);
+justify-items: center;
+align-items: center;
 }
 
 .equipe{
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    align-items: center;
-    padding: 10px;
+display: grid;
+grid-template-columns: 33% 33% 33%;
+align-items: center;
+padding: 10px;
 }
 
 .equipe img{ 
-    width: 45%;
-    margin-left: 30px;
+width: 45%;
+margin-left: 30px;
 }
 
 .paragrafo{
-    margin-left: 50px;
+margin-left: 50px;
 }
