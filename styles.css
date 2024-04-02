@@ -54,7 +54,7 @@ header {
 footer{
     display: grid;
     grid-template-columns: 35% 65%;
-    background-color: var(--cinza);
+    background-color: var(--cinza-claro);
     color: var(--preto);
     justify-items: center;
     align-items: center;
