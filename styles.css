@@ -41,7 +41,8 @@ header {
 }
 .container{
     width: 1000px;
-    border: solid var(--preto);
+    border: solid 1px var(--preto);
+    margin: auto;
 }
 
 .equipe{
