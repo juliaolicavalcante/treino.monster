@@ -9,6 +9,7 @@
 }
 
 body {
+    background-color: var(--cinza);
     color: var(--preto);
     font-family: "Inknut Antiqua", serif;
   font-weight: 400;
