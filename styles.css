@@ -48,8 +48,21 @@ header {
 }
 .exercicios-tríceps-corda img{
     width: 25%;
-    border: #000000 solid;
+    border: #332d2d solid;
     border-radius: 30px;
+}
+.exercicios-tríceps-corda-lista{
+    display: grid;
+    grid-template-columns: 40% 60%;  
+}
+
+.exercicios-tríceps-corda-descrição p{
+    margin-left: 90px;
+}
+
+
+.descrição-tríceps-corda{
+    margin-left: 50px;
 }
 
 footer{
