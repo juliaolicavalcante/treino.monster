@@ -49,11 +49,15 @@ header {
 footer{
     display: grid;
     grid-template-columns: 35% 65%;
+    background-color: var(--cinza);
+    color: var(--preto);
+    justify-items: center;
+    align-items: center;
 }
 
 .equipe{
-    background-color: var(--cinza);
-    color: var(--preto);
+    
+   
     display: grid;
     grid-template-columns: 33% 33% 33%;
     align-items: center;
