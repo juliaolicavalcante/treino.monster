@@ -46,6 +46,10 @@ header {
     margin: auto;
 }
 
+footer{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
 .equipe{
     background-color: var(--cinza);
     color: var(--preto);
