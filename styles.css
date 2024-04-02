@@ -48,8 +48,9 @@ header {
 
 footer{
     display: grid;
-    grid-template-columns: 25% 50% 25%;
+    grid-template-columns: 35% 65%;
 }
+
 .equipe{
     background-color: var(--cinza);
     color: var(--preto);
