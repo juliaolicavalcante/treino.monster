@@ -45,6 +45,11 @@ header {
     border: solid 1px var(--preto);
     margin: auto;
 }
+.exercicios-tríceps-corda{
+    width: 25%;
+    border: #cccccc;
+    border-radius: 30px;
+}
 
 footer{
     display: grid;
