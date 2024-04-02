@@ -51,7 +51,7 @@ footer{
     grid-template-columns: 35% 65%;
 }
 
-.e{
+.equipe{
     background-color: var(--cinza);
     color: var(--preto);
     display: grid;
