@@ -42,7 +42,6 @@ padding: 20px;
     background-color: var(--preto);
     color: var(--cinza);
     width: 82px;
-    height: 28px;
     border-radius: 20px;
     transition: transform 200ms ease-in-out;
     text-decoration: none;
