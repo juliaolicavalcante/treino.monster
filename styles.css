@@ -2,6 +2,9 @@
     margin: 0;
 }
 
+@media screen and (max-widht:767) {
+}
+
 :root {
 --cinza: #e6e6e6;
 --cinza-claro: #d4d4d4;
