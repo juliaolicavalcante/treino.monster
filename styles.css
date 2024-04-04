@@ -46,6 +46,7 @@ padding: 20px;
     transition: transform 200ms ease-in-out;
     text-decoration: none;
     text-align: center;
+    justify-content: center;
 }
 
 .botão-braço:hover{ 
