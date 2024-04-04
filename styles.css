@@ -43,10 +43,8 @@ padding: 20px;
     color: var(--cinza);
     width: 82px;
     border-radius: 20px;
-    height: 28px;
     transition: transform 200ms ease-in-out;
     text-decoration: none;
-    justify-content: center;
 }
 
 .botão-braço:hover{ 
