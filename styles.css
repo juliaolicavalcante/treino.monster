@@ -43,6 +43,7 @@ background-color: var(--preto);
 color: var(--cinza);
 width: 50px;
 margin: 5px;
+border-radius: 20px;
 cursor: pointer;
 transition: transform 200ms ease-in-out;
 text-decoration: none;
