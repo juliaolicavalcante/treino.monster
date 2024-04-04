@@ -39,7 +39,8 @@ padding: 20px;
 }
 
 .botão-perna{
-    background-color: var(--preto);
+background-color: var(--preto);
+color: var(--cinza);
 width: 50px;
 margin: 5px;
 cursor: pointer;
