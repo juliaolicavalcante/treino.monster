@@ -38,10 +38,12 @@ text-align: center;
 padding: 20px;
 }
 
+
 .botão-perna{
 background-color: var(--preto);
 color: var(--cinza);
-width: 50px;
+width: 82px;
+height: 28px;
 margin: 5px;
 border-radius: 20px;
 cursor: pointer;
