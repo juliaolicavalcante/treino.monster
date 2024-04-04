@@ -37,8 +37,9 @@ justify-content: space-around;
 text-align: center;
 padding: 20px;
 }
+
 .botão-perna{
-margin: 0 20px;
+margin: 20px;
 width: 82px;
 height: 28px;
 border-radius: 50px;
