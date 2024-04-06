@@ -11,6 +11,10 @@
 --preto: #000000;
 }
 
+.treino.monster{
+    margin-left: 10px;
+}
+
 body {
 background-color: var(--cinza);
 color: var(--preto);
@@ -23,12 +27,6 @@ header {
 background-color: var(--cinza-claro);
 display: flex;
 justify-content: space-between;
-}
-
-.Ellipse img{
-    width: 86px;
-    height: 83px;
-    margin-right: 10px;
 }
 
 .cabeçalho {
