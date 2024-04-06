@@ -25,6 +25,11 @@ display: flex;
 justify-content: space-between;
 }
 
+.Ellipse img{
+    width: 15%;
+    
+}
+
 .cabeçalho {
 display: flex;
 align-items: center;
